@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Form</title>
+</head>
+
+<body>
+    <!-- <form action=""> -->
+    <!-- <label for="">Name: </label>  for is using to link input like id of input is fname and aslo for = fname so this is for compiler to understand that label with fname is for input -->
+    <!-- <input type="text" name="" id=""> -->
+
+    <fieldset> 
+        <legend>Personal Details</legend>
+
+        <form action="">
+            <label for="fname">FirstName: </label>
+            <input type="text" name="firstName" id="fname">
+            <br><br>
+            <label for="mname">MiddleName: </label>
+            <input type="text" name="mirstName" id="mname">
+            <br><br>
+            <label for="lname">LastName: </label>
+            <input type="text" name="lirstName" id="lname">
+            <br><br>
+            <label for="course">Course: </label>
+            <select name="" id="course">
+                <option value="">Btech</option>
+                <option value="">Mtech</option>
+                <option value="">BCA</option>
+                <option value="">MCA</option>
+                <option value="">BBA</option>
+                <option value="">MBA</option>
+            </select>
+            <br><br>
+
+            <label for="gender">Gender: </label>
+            <br>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Others</label>
+            <br><br>
+
+            <label for="dob">DOB</label>
+            <input type="datetime-local" name="" id="dob">
+            <br><br>
+            <label for="phone">Phone: </label>
+            <input type="text" name="" id="address" placeholder="+91" disabled required size="1">
+            <input type="phone">
+            <br><br>
+
+            <label for="address">Address: </label>
+            <br>
+            <textarea name="" id="address" cols="50" rows="10"></textarea>
+            <br><br>
+
+            <label for="email">Email :</label>
+            <input type="email" name="" id="email" required placeholder="a@gmail.com">
+            <br><br>
+
+            <label for="password">Password :</label>
+            <input type="password" name="" id="password">
+            <br><br>
+
+            <label for="retype">Re-type Password :</label>
+            <input type="password" name="" id="retype">
+            <br><br>
+
+            <input type="checkbox" name="" id="checkbox">
+            <label for="checkbox">Agree to terms and conditions</label>
+            <br><br>
+
+            <label for="file">Choose File</label>
+            <input type="file" name="" id="file">
+            <br><br>
+
+            <label for="color">Choose Color</label>
+            <input type="color" name="" id="color">
+            <br><br>
+
+            <input type="reset" value="reset">
+            <button>Submit</button>
+
+        </form>
+    </fieldset>
+
+    </form>
+</body>
+
+</html>
